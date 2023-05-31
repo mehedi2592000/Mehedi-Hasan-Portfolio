@@ -1,0 +1,110 @@
+#demo{
+    padding-left: 6px;
+    background-color: rgb(94, 112, 248);
+    font-size: 20px;
+    
+}
+
+
+.logoimage{
+    border-radius: 50%;
+}
+.logoname{
+    font-size: 30px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    background-color: rgb(48, 52, 51);
+    
+    color:red !important;
+}
+
+.offcanvas {
+    width: 200px !important;
+}
+
+
+.homedata{
+    color: rgb(17, 8, 68);
+}
+.allname{
+    font-size: 35px;
+
+    .dd{
+        font-size: 20px !important;
+    }
+}
+
+.name{
+    font-size: 85px;
+    border-bottom: 4px solid blue;
+}
+
+.picture{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 100px;
+}
+
+@media (max-width: 767.98px) { 
+
+    .name{
+        font-size: 50px;
+    }
+
+    .picture{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+       
+    }
+}
+
+.aboutheader{
+    background-color: rgb(113, 113, 246) !important;
+   
+}
+
+#more{
+    display: none;
+}
+
+
+
+.skilltitle{
+    background-color: rgb(113, 113, 246) !important;
+    width: 100%;
+    height: 60px;
+}
+
+.skilheader{
+     background-color: bisque;
+    background: cover; 
+}
+
+.reasearchId{
+    float: left;
+}
+
+.hidedata{
+    clear: both;
+}
+
+.lastpart{
+    background-color: rgb(59, 57, 57) !important;
+
+}
+
+.pic{
+    border-radius: 50%;
+}
